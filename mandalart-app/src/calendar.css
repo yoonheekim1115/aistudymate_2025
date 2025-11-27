@@ -1,0 +1,79 @@
+/* 페이지 전체 컨테이너 */
+.calendar-page-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  font-family: "Pretendard", sans-serif;
+  width: 100%;
+}
+
+
+/* 캘린더 전체 박스 */
+.calendar-container {
+  margin-top: 80px;
+  width: 100%;
+  max-width: 1400px; 
+  display: flex;
+  justify-content: center;
+}
+
+/* FullCalendar 래퍼 */
+.calendar-wrapper {
+  width: 100%;
+}
+
+/* FullCalendar 기본 스타일 */
+.fc {
+  width: 100% !important;        /* 🔥 FullCalendar 전체 너비 강제 */
+  max-width: 100% !important;
+}
+
+.empty-message {
+  margin-top: 16px;
+  text-align: center;
+  color: #888;
+  font-size: 15px;
+}
+
+/* 🔥 전체 버튼 공통 스타일 */
+.fc .fc-button {
+  background-color: #6e8efb !important;
+  border: none !important;
+  color: white !important;
+  padding: 6px 14px !important;
+  border-radius: 8px !important;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: 0.2s ease;
+}
+
+/* 🔥 Hover 효과 */
+.fc .fc-button:hover {
+  background-color: #5166d0 !important;
+}
+
+/* 🔥 클릭(active) 효과 */
+.fc .fc-button:active {
+  background-color: #4458b8 !important;
+  transform: scale(0.97);
+}
+
+/* 🔥 비활성(today가 현재일 때 disabled 되는 경우) */
+.fc .fc-button.fc-button-disabled {
+  background-color: #c9c9c9 !important;
+  color: #666 !important;
+  cursor: default;
+  box-shadow: none;
+}
+
+/* 🔥 prev / next 버튼 아이콘 조정 (조금 더 두껍게 보이게) */
+.fc .fc-prev-button span,
+.fc .fc-next-button span {
+  font-size: 18px !important;
+  font-weight: bold;
+}
+

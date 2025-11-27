@@ -1,0 +1,107 @@
+/* 전체 레이아웃 */
+* {
+  box-sizing: border-box;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.login-box input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.logout-btn {
+  margin-top: 20px;
+  background: #b9b9b9;
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 120px;
+}
+
+
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  font-family: "Pretendard", sans-serif;
+}
+
+.new-mandalart-btn {
+  background-color: #4f68ff;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+.main-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 420px;  /* 콘텐츠 폭 제한 */
+  align-items: center; 
+}
+
+/* 텍스트 */
+.subtitle {
+  font-size: 13px;  /* ↓ 조금 줄임 */
+  color: #6a768c;
+  margin: 0;
+}
+
+.title {
+  font-size: 26px;  /* ↓ 과하지 않은 크기 */
+  color: #34486a;
+  margin: 0;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 13px;
+  color: #8894a9;
+  margin-top: 2px;
+}
+
+/* 버튼 그룹 */
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+.primary-btn {
+  background: #5a3bff;
+  padding: 7px 14px; /* ↓ 패딩 줄임 */
+  border-radius: 6px;
+  border: none;
+  color: white;
+  font-size: 12px;  /* ↓ 글자 크기 축소 */
+  cursor: pointer;
+}

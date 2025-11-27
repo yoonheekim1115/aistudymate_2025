@@ -1,0 +1,27 @@
+import React from "react";
+import Header from "./header";
+// import { useNavigate } from "react-router-dom";
+import "./home.css";
+
+export default function Home() {
+  // const navigate = useNavigate();
+
+  return (
+    <div className="home-container">
+      <Header />
+
+      <main className="main-section">
+        <div className="content-box">
+          <p className="subtitle">[사용자 이름], 최종 목표를 입력해 주세요</p>
+          <h1 className="title">Mandarlart–Calendar</h1>
+          <p className="description">어떻게 시작해야 할지 막막한 일정을 위한 캘린더</p>
+
+          <div className="button-group">
+            <button className="primary-btn">내 만다라트 보기</button>
+            <button className="primary-btn">내 캘린더 보기</button>
+          </div>
+        </div>
+      </main>
+    </div>
+  );
+}
