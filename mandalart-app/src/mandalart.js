@@ -121,7 +121,8 @@ export default function Mandalart() {
       // 2. API에서 sub-subtask 가져오기
       let suggestions = [];
       try {
-        const res = await fetch("http://10.240.8.236:4000/suggestions");
+        const API_BASE = `${window.location.protocol}//${window.location.hostname}:4000`;
+        const res = await fetch(`${API_BASE}/suggestion`);
         const data = await res.json();
 
         suggestions = data[subGoal] || [];
@@ -609,65 +610,10 @@ const openModal = (taskData, cellPos) => {
           setIsTitleModalOpen(true);   // 저장 대신 제목 입력 모달 열기
         }}
       >
-        만다라트 저장
+        저장
       </button>
 
-      {/* <button
-        className="complete-btn"
-        onClick={async () => {
-          const finalData = {};
-
-          const positions = [
-            [0,0], [0,1], [0,2],
-            [1,0],        [1,2],
-            [2,0], [2,1], [2,2]
-          ];
-
-          // 각 서브타스크 저장
-          for (const [r, c] of positions) {
-            finalData[`${r}-${c}`] = await getOrCreateFinalBlock(r, c);
-          }
-
-          // 중앙 저장
-          finalData.center = cells;
-
-          console.log("최종 저장:", finalData);
-          
-          // 🔥 API에 저장할 최종 객체 구성
-          const savePayload = {
-            id: Date.now().toString(),                              // 고유 ID
-            userId: user?.id || null,                               // 회원 ID
-            createdAt: new Date().toISOString().split("T")[0],      // 생성 날짜
-            data: finalData                                         // 실제 만다라트 내용
-          };
-
-          try {
-            const res = await fetch("http://10.240.8.236:4000/mandalart", {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json",
-              },
-              body: JSON.stringify(savePayload),
-            });
-
-            if (!res.ok) {
-              throw new Error("서버 오류 발생");
-            }
-
-            const result = await res.json();
-            console.log("서버 저장 성공:", result);
-            alert("만다라트가 성공적으로 저장되었습니다!");
-
-          } catch (err) {
-            console.error("저장 실패:", err);
-            alert("저장 오류: " + err.message);
-          }
-        }}
-      >
-        만다라트 저장
-      </button> */}
-
-
+     
 
     </div>
 
@@ -710,7 +656,7 @@ const openModal = (taskData, cellPos) => {
                         : ""}
                     </p>
                     <div className="button-row">
-                      <button
+                      <button title="편집하기"
                         className="edit-btn"
                         onClick={(e) => {
                           e.stopPropagation();
@@ -721,6 +667,7 @@ const openModal = (taskData, cellPos) => {
                       </button>
 
                       <button
+                      title="이 목표에 대한 서브 목표 생성하기"
                         className="sub-mandalart-btn"
                         onClick={(e) => {
                           e.stopPropagation();
@@ -988,6 +935,9 @@ const openModal = (taskData, cellPos) => {
         placeholder="제목을 입력하세요"
         value={titleInput}
         onChange={(e) => setTitleInput(e.target.value)}
+        onKeyDown={(e) => {
+          if (e.key === "Enter") handleSaveMandalart();
+        }}
       />
 
       <div className="modal-buttons">

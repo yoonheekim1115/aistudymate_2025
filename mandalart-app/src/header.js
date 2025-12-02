@@ -5,6 +5,7 @@ import "./header.css";
 
 export default function Header() {
   const navigate = useNavigate();
+  
 
   return (
     <header className="top-nav">
@@ -13,16 +14,21 @@ export default function Header() {
       </div>
 
       <div className="nav-right">
+        <button
+          className="primary-btn"
+          onClick={() => {
+            localStorage.removeItem("user");  // 로그아웃 실제 기능
+            window.location.href = "/";       // 홈으로 이동
+          }}
+        >
+          로그아웃
+        </button>
         <button 
         className="nav-text-btn" onClick={() => navigate("/my_mandalart")}>
-          MY만다라트
+          MY 만다라트
         </button>
         <button className="nav-text-btn" onClick={() => navigate("/calendar")}>
-          캘린더
-        </button>
-        <button
-          className="primary-btn" onClick={() => navigate("/new_mandalart")}>
-          새 만다라트 만들기
+          캘린더  
         </button>
       </div>
     </header>

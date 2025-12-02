@@ -77,7 +77,8 @@ const applyToCalendar = (mandalart) => {
 
   useEffect(() => {
     async function load() {
-      const res = await fetch(`http://10.240.8.236:4000/mandalart?userId=${user.id}`);
+      const API_BASE = `${window.location.protocol}//${window.location.hostname}:4000`;
+      const res = await fetch(`${API_BASE}/mandalart?userId=${user.id}`);
       const data = await res.json();
       const filtered = data.filter(item => item.userId === user.id);
       setList(filtered);
@@ -140,7 +141,10 @@ const applyToCalendar = (mandalart) => {
                   <td>
                     <button 
                       className="view-btn"
-                      onClick={() => applyToCalendar(item)}
+                      onClick={() => {
+                      applyToCalendar(item);
+                      navigate("/calendar");
+                      }}
                     >
                       적용 →
                     </button>

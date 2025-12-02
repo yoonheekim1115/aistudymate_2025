@@ -324,8 +324,8 @@
 
 .sub-mandalart-grid {
   display: grid;
-  grid-template-columns: repeat(3, 240px);
-  grid-template-rows: repeat(3, 240px);
+  grid-template-columns: repeat(3, 220px);
+  grid-template-rows: repeat(3, 220px);
   gap: 14px;
 }
 
@@ -430,12 +430,22 @@
 .complete-btn {
   background-color: #4f68ff;
   color: white;
-  padding: 8px 18px;
-  border-radius: 8px;
+  padding: 7px 20px;
+  border-radius: 6px;
   border: none;
-  font-size: 14px;
+  font-size: 12px;
   cursor: pointer;
   transition: 0.2s;
+}
+
+.primary-btn {
+  background-color: #4f68ff;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
 }
 
 .complete-btn:hover {

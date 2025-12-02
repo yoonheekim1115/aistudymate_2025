@@ -31,7 +31,8 @@ export default function GoalInput() {
     if (e.key !== "Enter" || goal.trim() === "") return;
 
     // 1. mock API 불러오기
-    const res = await fetch("http://10.240.8.236:4000/suggestions");
+    const API_BASE = `${window.location.protocol}//${window.location.hostname}:4000`;
+    const res = await fetch(`${API_BASE}/suggestions`);
     const data = await res.json();
 
     // 2. 목표 키워드 기반 매칭
@@ -83,33 +84,41 @@ export default function GoalInput() {
 
       <main className="goal-main">
         <h1 className="goal-title">최종 목표를 입력하세요.</h1>
+        <div className = "goal-input-wrapper">
+          <input
+            type="text"
+            className="goal-input-bar"
+            value={goal}
+            onChange={(e) => setGoal(e.target.value)}
+            placeholder="최종 목표를 입력해주세요"
+            onKeyDown={handleGoalEnter}
+          />
 
-        <input
-          type="text"
-          className="goal-input-bar"
-          value={goal}
-          onChange={(e) => setGoal(e.target.value)}
-          placeholder="최종 목표를 입력해주세요"
-          onKeyDown={handleGoalEnter}
-        />
+          <button 
+          className="goal-submit-btn" 
+           onClick={() => handleGoalEnter({ key: "Enter" })}
+          >
+            ↩
+          </button>
+        </div>
 
         {/* 🔥 최소 필요 작업일 표시 */}
         {requiredDays && (
           <p className="goal-description">
-            해당 목표는 최소 <b>{requiredDays}일</b>이 필요합니다.
+            💡 해당 목표는 최소 <b>{requiredDays}일</b>이 필요합니다.
           </p>
         )}
 
         {/* 🔥 deadline 입력 섹션 */}
         {showDeadline && (
           <div className="deadline-section fade-in">
-            <h2 className="deadline-title">마감 일자를 선택해주세요</h2>
+            <h2 className="deadline-title">마감 일자는 언제인가요?</h2>
 
             <input
               type="date"
               className="deadline-input"
               value={deadline}
-              min={minDeadline}       // ← 🔥 여기!
+              // min={minDeadline}      
               onChange={(e) => setDeadline(e.target.value)}
             />
 

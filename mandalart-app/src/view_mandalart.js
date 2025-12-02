@@ -16,7 +16,8 @@ export default function ViewMandalart() {
   useEffect(() => {
     async function load() {
       try {
-        const res = await fetch(`http://10.240.8.236:4000/mandalart?id=${id}`);
+        const API_BASE = `${window.location.protocol}//${window.location.hostname}:4000`;
+        const res = await fetch(`${API_BASE}/mandalart?id=${id}`);
         const json = await res.json();
         setData(json[0]);
       } catch (err) {
