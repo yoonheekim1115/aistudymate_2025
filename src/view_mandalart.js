@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import Header from "./header";
-import "./mandalart.css";
+import "./view_mandalart.css";
 import { useNavigate } from "react-router-dom";
 
 
@@ -12,6 +12,39 @@ export default function ViewMandalart() {
   const [subCells, setSubCells] = useState(null);
   const navigate = useNavigate();
 
+  // ⭐ 모든 블록의 중앙 칸을 자동 보정해주는 함수
+const normalizeBlocks = (data) => {
+  const positions = [
+    "0-0","0-1","0-2",
+    "1-0",      "1-2",
+    "2-0","2-1","2-2"
+  ];
+
+  positions.forEach(pos => {
+    let block = data[pos];
+    let main = data.center;
+
+    if (!block) return;
+
+    const [r, c] = pos.split("-").map(Number);
+
+    // 메인 3x3의 해당 셀(Task 정보)
+    const mainTask = main[r][c];
+
+    // 블록 중앙 셀이 없으면 보정
+    if (!block[1][1] || !block[1][1].task) {
+      block[1][1] = {
+        task: mainTask.task || "",
+        startDate: mainTask.startDate || "",
+        endDate: mainTask.endDate || ""
+      };
+    }
+  });
+
+  return data;
+};
+
+
 
   useEffect(() => {
     async function load() {
@@ -19,7 +52,8 @@ export default function ViewMandalart() {
         const API_BASE = `${window.location.protocol}//${window.location.hostname}:4000`;
         const res = await fetch(`${API_BASE}/mandalart?id=${id}`);
         const json = await res.json();
-        setData(json[0]);
+        const normalized = normalizeBlocks(json[0].data); 
+        setData({ ...json[0], data: normalized });
       } catch (err) {
         console.error("조회 실패:", err);
       }
@@ -31,161 +65,105 @@ export default function ViewMandalart() {
 
   console.log("api data: ", data);
 
-  const center = data.data.center;
-  const positions = [
-    [0,0],[0,1],[0,2],
-    [1,0],      [1,2],
-    [2,0],[2,1],[2,2]
-  ];
-  
-  const centerCell = data.data.center[1][1];
+  // 3×3 블록 9개를 9×9로 합치는 함수
+  const buildNineByNine = (data) => {
+    const big = Array.from({ length: 9 }, () => Array(9).fill(null));
 
-  const openSub = (r, c) => {
-  const key = `${r}-${c}`;
-  let block = data.data[key];
+    const order = [
+      ["0-0", "0-1", "0-2"],
+      ["1-0", "center", "1-2"],
+      ["2-0", "2-1", "2-2"]
+    ];
 
-  if (!block) return;
+    for (let br = 0; br < 3; br++) {
+      for (let bc = 0; bc < 3; bc++) {
+        const key = order[br][bc];
+        const block = data[key]; // 3×3 블록 (center 포함)
 
-  // 🔥 메인 3x3에서 클릭한 셀(서브 목표)을 가져옴
-  const mainTask = data.data.center[r][c];
+        if (!block) continue;
 
-  // 🔥 서브 3×3 중앙칸에 서브 목표가 없으면 강제로 채움
-  if (!block[1][1] || !block[1][1].task) {
-    // 깊은 복사해서 block 수정
-    block = block.map(row => row.map(cell => ({ ...cell })));
+        for (let r = 0; r < 3; r++) {
+          for (let c = 0; c < 3; c++) {
+            big[br * 3 + r][bc * 3 + c] = block[r][c];
+          }
+        }
+      }
+    }
 
-    block[1][1] = {
-      task: mainTask.task || "",
-      startDate: mainTask.startDate || "",
-      endDate: mainTask.endDate || ""
-    };
+    return big;
+  };
+
+ const full9x9 = buildNineByNine(data.data);
+
+ const colorMap = {
+  centerMain: "#6f82ffb4", 
+  subMain: "#e9efff", 
+  blockCenter: "#e9efff",
+  default: "#ffffff" 
+};
+
+
+const getMainCellColor = (r, c) => {
+  const blockR = Math.floor(r / 3);
+  const blockC = Math.floor(c / 3);
+  const cellR = r % 3;
+  const cellC = c % 3;
+
+  // 중앙 큰 블록(메인 목표 구역)
+  if (blockR === 1 && blockC === 1) {
+    // 중앙 셀
+    if (cellR === 1 && cellC === 1) return colorMap.centerMain;
+    // 주변 8칸
+    return colorMap.subMain;
   }
 
-  setActiveSub({
-    r,
-    c,
-    title: block[1][1].task || ""
-  });
+  // 주변 서브 블록의 중앙만 색준다
+  if (cellR === 1 && cellC === 1) {
+    return colorMap.blockCenter;
+  }
 
-  setSubCells(block);
+  return colorMap.default;
 };
+
+
+
+
 
 
   return (
     <div className="mandalart-container">
       <Header />
 
-    <div className="top-right-actions">
-      <button 
-        className="back-list-btn"
-        onClick={() => navigate("/my_mandalart")}
-      >
-        목록으로 돌아가기
-      </button>
-    </div>
-
-
-      {/* 타이틀 */}
-      <div style={{ width: "100%", textAlign: "center", marginTop: "20px" }}>
-        {/* <h2 style={{ fontWeight: 700 }}>
-          {data.title || "제목 없음"} 
-          <span style={{ fontSize: "14px", color: "#8592a5", marginLeft: "8px" }}>
-            만다르트 생성일자: {data.createdAt}
-          </span>
-        </h2> */}
-      </div>
-
       <main className="mandalart-main">
-        {/* ---- 메인 3x3 ---- */}
-        <div className={`mandalart-grid main-grid ${activeSub ? "minimized" : ""}`}>
-          {center.map((row, r) =>
-            row.map((cell, c) => {
-              // 중앙 목표
-              if (r === 1 && c === 1) {
-                return (
-                  <div key="center" className="mandalart-center-cell">
-                    <p className="center-goal">{cell.task}</p>
-                    <p className="center-date">{cell.startDate} ~ {cell.endDate}</p>
-                  </div>
-                );
-              }
+        {/* <h2>{data.title}</h2> */}
 
-              // 일반 셀
-              const mainTask = cell;
+        {/* ⭐ 9×9 전체 만다라트 렌더링 */}
+        <div className="mandalart-grid-9x9">
+          {full9x9.map((row, r) =>
+            row.map((cell, c) => (
+          <div 
+            key={`${r}-${c}`} 
+            className={`
+              view-mandalart-cell
+              ${(r % 3 === 0 && r !== 0) ? "bold-top" : ""}
+              ${(r % 3 === 2 && r !== 8) ? "bold-bottom" : ""}
+              ${(c % 3 === 0 && c !== 0) ? "bold-left" : ""}
+              ${(c % 3 === 2 && c !== 8) ? "bold-right" : ""}
+              ${activeSub && activeSub.r === r && activeSub.c === c ? "active-cell" : ""}
+            `}
+            style={{ backgroundColor: getMainCellColor(r, c) }}
+          >
+                <p className="cell-task">{cell?.task || ""}</p>
+                <p className="cell-date">
+                  {cell?.startDate && cell?.endDate
+                    ? `${cell.startDate} ~ ${cell.endDate}`
+                    : ""}
+                </p>
 
-              return (
-                <div
-                key={`${r}-${c}`}
-                className={`mandalart-cell ${
-                    activeSub && activeSub.r === r && activeSub.c === c ? "active-cell" : ""
-                }`}
-                onClick={() => openSub(r, c)}
-                >
-
-                  <p className="cell-task">{mainTask.task}</p>
-                  <p className="cell-date">
-                    {mainTask.startDate && mainTask.endDate
-                      ? `${mainTask.startDate} ~ ${mainTask.endDate}`
-                      : ""}
-                  </p>
-                </div>
-              );
-            })
+              </div>
+            ))
           )}
         </div>
-
-        {/* ---- 서브 3x3 ---- */}
-        {activeSub && subCells && (
-          <section className="sub-mandalart-section">
-            <div className="sub-mandalart-header">
-              <h2 className="sub-mandalart-title">{activeSub.title}</h2>
-
-              <button
-                className="back-btn"
-                onClick={() => {
-                  setActiveSub(null);
-                  setSubCells(null);
-                }}
-              >
-                메인으로 돌아가기
-              </button>
-            </div>
-
-            <div className="sub-mandalart-grid sub-grid">
-            {subCells.map((row, r) =>
-                row.map((cell, c) => {
-                // 중앙 셀
-                if (r === 1 && c === 1) {
-                    return (
-                    <div key={`center-${r}-${c}`} className="mandalart-center-cell">
-                        <p className="center-goal">{cell?.task || ""}</p>
-                        <p className="cell-date">
-                        {cell?.startDate && cell?.endDate
-                            ? `${cell.startDate} ~ ${cell.endDate}`
-                            : ""}
-                        </p>
-                    </div>
-                    );
-                }
-
-                // 일반 셀
-                return (
-                    <div key={`sub-${r}-${c}`} className="mandalart-cell">
-                    <p className="cell-task">{cell?.task || ""}</p>
-                    <p className="cell-date">
-                        {cell?.startDate && cell?.endDate
-                        ? `${cell.startDate} ~ ${cell.endDate}`
-                        : ""}
-                    </p>
-                    </div>
-                );
-                })
-            )}
-            </div>
-
-          </section>
-        )}
-
       </main>
     </div>
   );

@@ -36,6 +36,7 @@ export default function Mandalart() {
 
 
     
+
     const updateSubCell = (row, col, value) => {
       if (!subCells || !activeSub) return;
 
@@ -122,7 +123,7 @@ export default function Mandalart() {
       let suggestions = [];
       try {
         const API_BASE = `${window.location.protocol}//${window.location.hostname}:4000`;
-        const res = await fetch(`${API_BASE}/suggestion`);
+        const res = await fetch(`${API_BASE}/suggestions`);
         const data = await res.json();
 
         suggestions = data[subGoal] || [];
@@ -139,17 +140,12 @@ export default function Mandalart() {
       }
 
       // 3. 날짜 기반 일정 생성
-      let schedules = [];
+    const schedules = suggestions.map(s => ({
+      task: s.task,
+      startDate: "",
+      endDate: ""
+    }));
 
-      if (cleanStart && cleanEnd) {
-        schedules = calculateTaskSchedule(cleanEnd, suggestions);
-      } else {
-        schedules = suggestions.map(s => ({
-          task: s.task,
-          startDate: "",
-          endDate: ""
-        }));
-      }
 
       // 4. 3x3 초기 레이아웃 생성
       const base = [
@@ -208,7 +204,8 @@ export default function Mandalart() {
     // 클릭되지 않은 서브타스크도 저장할 수 있도록 API에서 즉석 생성
 const createNew3x3FromAPI = async (task) => {
   try {
-    const res = await fetch("http://10.240.8.236:4000/suggestions");
+    const API_BASE = `${window.location.protocol}//${window.location.hostname}:4000`;
+    const res = await fetch(`${API_BASE}/suggestions`);
     const data = await res.json();
 
     const suggestions = data[task] || [];
@@ -458,7 +455,8 @@ const formatFullDate = (dateStr) => {
   };
 
   try {
-    const res = await fetch("http://10.240.8.236:4000/mandalart", {
+    const API_BASE = `${window.location.protocol}//${window.location.hostname}:4000`;
+    const res = await fetch(`${API_BASE}/mandalart`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -551,52 +549,98 @@ const openModal = (taskData, cellPos) => {
     return bestMatch;
   };
 
-  // 🔥 (2) mock 데이터에서 서브태스크 불러오기
-  useEffect(() => {
-    if (!goal) return;
+  const fillSubTasks = async () => {
+  if (!goal) return;
 
-    const mainGoal = findClosestMainGoal(goal);
+  const mainGoal = findClosestMainGoal(goal);
+  if (!mainGoal) {
+    alert("유사한 메인 목표를 찾지 못했습니다.");
+    return;
+  }
 
-    if (!mainGoal) {
-      console.warn("유사한 메인 목표를 찾지 못했습니다.");
+  try {
+    const API_BASE = `${window.location.protocol}//${window.location.hostname}:4000`;
+    const res = await fetch(`${API_BASE}/suggestions`);
+    const data = await res.json();
+
+    const suggestions = data[mainGoal];
+    if (!suggestions) {
+      alert("추천 데이터를 찾을 수 없습니다.");
       return;
     }
 
-    fetch("http://10.240.8.236:4000/suggestions")
-      .then((res) => res.json())
-      .then((data) => {
-        const suggestions = data[mainGoal];
+    const schedules = calculateTaskSchedule(deadline, suggestions);
+    const updated = [...cells];
 
-        if (!suggestions) {
-          console.warn("해당 목표의 추천 데이터가 없습니다:", mainGoal);
-          return;
-        }
+    let index = 0;
+    for (let r = 0; r < 3; r++) {
+      for (let c = 0; c < 3; c++) {
+        if (r === 1 && c === 1) continue;
 
-        // 🔥 (3) 8칸에 자동 채우기
-        const schedules = calculateTaskSchedule(deadline, suggestions);
+        updated[r][c] = {
+          ...(schedules[index] || { task: "", startDate: "", endDate: "" }),
+          animate: true
+        };
 
-        const updated = [...cells];
-        let index = 0;
+        index++;
+      }
+    }
 
-        for (let r = 0; r < 3; r++) {
-          for (let c = 0; c < 3; c++) {
-            if (r === 1 && c === 1) continue;
+    setCells(updated);
 
-            updated[r][c] = schedules[index] || {
-              task: "",
-              startDate: "",
-              endDate: ""
-            };
+  } catch (err) {
+    console.error(err);
+  }
+};
 
-            index++;
-          }
-        }
 
-        setCells(updated);
+  // 🔥 (2) mock 데이터에서 서브태스크 불러오기
+  // useEffect(() => {
+  //   if (!goal) return;
 
-      })
-      .catch((err) => console.error("API Error:", err));
-  }, [goal]);
+  //   const mainGoal = findClosestMainGoal(goal);
+
+  //   if (!mainGoal) {
+  //     console.warn("유사한 메인 목표를 찾지 못했습니다.");
+  //     return;
+  //   }
+
+  //   const API_BASE = `${window.location.protocol}//${window.location.hostname}:4000`;
+  //   fetch(`${API_BASE}/suggestions`)
+  //     .then((res) => res.json())
+  //     .then((data) => {
+  //       const suggestions = data[mainGoal];
+
+  //       if (!suggestions) {
+  //         console.warn("해당 목표의 추천 데이터가 없습니다:", mainGoal);
+  //         return;
+  //       }
+
+  //       // 🔥 (3) 8칸에 자동 채우기
+  //       const schedules = calculateTaskSchedule(deadline, suggestions);
+
+  //       const updated = [...cells];
+  //       let index = 0;
+
+  //       for (let r = 0; r < 3; r++) {
+  //         for (let c = 0; c < 3; c++) {
+  //           if (r === 1 && c === 1) continue;
+
+  //           updated[r][c] = schedules[index] || {
+  //             task: "",
+  //             startDate: "",
+  //             endDate: ""
+  //           };
+
+  //           index++;
+  //         }
+  //       }
+
+  //       setCells(updated);
+
+  //     })
+  //     .catch((err) => console.error("API Error:", err));
+  // }, [goal]);
 
 
   return (
@@ -604,6 +648,13 @@ const openModal = (taskData, cellPos) => {
       <Header />
 
     <div className="top-right-actions">
+      <button
+        className="fill-btn"
+        onClick={fillSubTasks}
+      >
+        AI
+      </button>
+
       <button
         className="complete-btn"
         onClick={() => {
@@ -645,9 +696,10 @@ const openModal = (taskData, cellPos) => {
               return (
                 <div 
                 key={`${r}-${c}`} 
-                className={`mandalart-cell ${
-                  activeSub && activeSub.r === r && activeSub.c === c ? "active-cell" : ""
-                }`}
+                className={`mandalart-cell 
+                  ${value.animate ? "fade-cell" : ""} 
+                  ${activeSub && activeSub.r === r && activeSub.c === c ? "active-cell" : ""}
+                  `}
                 >
                     <p className="cell-task">{value.task}</p>
                     <p className="cell-date">
