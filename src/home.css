@@ -1,0 +1,86 @@
+/* 전체 레이아웃 */
+* {
+  box-sizing: border-box;
+}
+
+.login-box {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 280px;
+  margin: 0 auto;
+}
+
+.login-box input {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  font-family: "Pretendard", sans-serif;
+}
+
+.new-mandalart-btn {
+  background-color: #4f68ff;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+
+.main-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-width: 420px;  /* 콘텐츠 폭 제한 */
+  align-items: center; 
+}
+
+/* 텍스트 */
+.subtitle {
+  font-size: 20px;   
+  color: #6a768c;
+  margin: 0;
+}
+
+.title {
+  font-size: 40px;  /* ↓ 과하지 않은 크기 */
+  color: #34486a;
+  margin: 0;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 15px;
+  color: #8894a9;
+  margin-top: 2px;
+}
+
+/* 버튼 그룹 */
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 14px;
+}
+

@@ -1,0 +1,46 @@
+.top-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 32px;
+  border-bottom: 1.5px solid #e6e6e6;
+  background: #ffffff;
+}
+
+.logo {
+  font-size: 14px;
+  color: #6d7b9a;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-text-btn {
+  background: transparent;
+  border: none;
+  font-size: 13px;
+  color: #6d7b9a;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: #4f68ff;
+  color: white;
+  border: none;
+  padding: 7px 14px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.nav-text-btn.disabled {
+  color: #ccc;
+  cursor: not-allowed;
+  pointer-events: none;
+}
