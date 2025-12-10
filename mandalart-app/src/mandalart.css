@@ -18,8 +18,8 @@
 /* ---- 그리드 ---- */
 .mandalart-grid {
   display: grid;
-  grid-template-columns: repeat(3, 250px);
-  grid-template-rows: repeat(3, 250px);
+  grid-template-columns: repeat(3, 230px);
+  grid-template-rows: repeat(3, 230px);
   gap: 14px;
 }
 
@@ -425,7 +425,55 @@
   display: flex;
   justify-content: flex-end;
   padding: 10px 40px 0px 0px; /* 오른쪽 패딩은 헤더 버튼과 정렬 맞춤 */
+  gap: 12px;
 }
+
+/* .fill-btn {
+  background-color: #4f68ff;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 6px;
+  border: none;
+  font-size: px;
+  cursor: pointer;
+  transition: 0.2s;
+} */
+
+.fill-btn {
+  position: relative;
+  overflow: hidden;
+  background-color: #4f68ff;
+  color: white;
+  padding: 7px 20px;
+  border-radius: 6px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.fill-btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 200%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  transform: skewX(-20deg);
+  transition: 0.7s;
+}
+
+.fill-btn:hover::after {
+  left: 100%;
+}
+
+
 
 .complete-btn {
   background-color: #4f68ff;
@@ -501,4 +549,28 @@
   font-size: 14px;
   cursor: pointer;
   transition: 0.2s;
+}
+
+.mandalart-grid-9x9 {
+  display: grid;
+  grid-template-columns: repeat(9, 120px);
+  grid-template-rows: repeat(9, 120px);
+  gap: 4px;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+
+.fade-cell {
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

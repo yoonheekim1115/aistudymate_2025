@@ -18,6 +18,7 @@ export default function Header() {
           className="primary-btn"
           onClick={() => {
             localStorage.removeItem("user");  // 로그아웃 실제 기능
+            localStorage.removeItem("calendarEvents");
             window.location.href = "/";       // 홈으로 이동
           }}
         >

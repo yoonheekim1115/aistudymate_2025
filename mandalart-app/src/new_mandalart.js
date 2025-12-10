@@ -104,7 +104,7 @@ export default function GoalInput() {
 
         {/* 🔥 최소 필요 작업일 표시 */}
         {requiredDays && (
-          <p className="goal-description">
+          <p className="goal-description fade-in">
             💡 해당 목표는 최소 <b>{requiredDays}일</b>이 필요합니다.
           </p>
         )}

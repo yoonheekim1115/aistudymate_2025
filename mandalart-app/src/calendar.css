@@ -77,3 +77,80 @@
   font-weight: bold;
 }
 
+
+/* 🔥 Task Bar 그라데이션 효과 */
+.fc-event {
+  background: var(--event-color);
+  border: none !important;
+  color: #fff !important;
+  font-weight: 500;
+}
+
+
+/* 🔥 DayGrid 이벤트(막대)의 두께 */
+.fc-daygrid-event {
+  height: 28px !important;          /* 원하는 두께 */
+  padding: 0 !important;            /* FullCalendar 기본 padding 제거 */
+  display: flex !important;         /* flexbox 적용 */
+  align-items: center !important;   /* 수직 중앙정렬 */
+}
+
+/* 🔥 텍스트 영역도 flexbox 중앙 정렬 */
+.fc-daygrid-event .fc-event-main {
+  display: flex !important;
+  align-items: center !important;   /* 수직 중앙 */
+  padding-left: 6px !important;     /* 왼쪽 여백 */
+  font-size: 13px !important;
+  height: 100% !important;          /* 이벤트 높이에 맞춤 */
+}
+
+.color-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.color-modal {
+  background: white;
+  padding: 16px 22px;
+  border-radius: 10px;
+  width: 260px;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.color-options {
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin: 15px 0;
+}
+
+.color-box {
+  width: 28px;
+  height: 28px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.color-box.red { background: #ff4d4f; }
+.color-box.blue { background: #4f8ef7; }
+.color-box.green { background: #52c41a; }
+.color-box.yellow { background: #f6a54d; }
+.color-box.purple { background: #b54afcff; }
+
+.color-close {
+  margin-top: 10px;
+  padding: 8px 14px;
+  background: #ddd;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

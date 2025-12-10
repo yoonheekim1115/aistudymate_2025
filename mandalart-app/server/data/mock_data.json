@@ -1,6 +1,16 @@
 {
   "users": [
     {
+      "id": "demo",
+      "password": "1234",
+      "name": "김보겸"
+    },
+    {
+      "id": "test1",
+      "password": "1234",
+      "name": "홍길동"
+    },
+    {
       "id": "user2",
       "password": "1234",
       "name": "김윤희"
@@ -21509,6 +21519,6007 @@
               "task": "서비스 로드맵 및 릴리즈 마일스톤 기획",
               "startDate": "2026-01-15 (목)",
               "endDate": "2026-01-23 (금)"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1764652286486",
+      "userId": "user2",
+      "createdAt": "2025-12-02 14:11:26",
+      "title": "test4",
+      "data": {
+        "0-0": [
+          [
+            {
+              "task": "비즈니스 목표 재확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 목적과 범위 명확화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "예상되는 핵심 지표 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "문제 유형 분류(예측/분류/군집 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "데이터 요구사항 도출",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "필요한 가설 리스트업",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "이해관계자 요구사항 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 분석 문제 문장화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-1": [
+          [
+            {
+              "task": "데이터 소스 목록화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API/DB/크롤링으로 데이터 수집",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "중복값 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "결측치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "이상치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 형식 통일(문자/숫자/날짜)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "전처리 파이프라인 코드화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "정제된 데이터셋 버전관리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-2": [
+          [
+            {
+              "task": "변수 기초 통계량 확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "시각화 탐색(히스토그램/박스플롯)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "변수 간 상관관계 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "타깃변수 패턴 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "기간별 트렌드 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "군집/이상 패턴 탐색",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "도출된 인사이트 문서화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "EDA 노트북 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-0": [
+          [
+            {
+              "task": "핵심 KPI 후보군 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기존 변수 변환/스케일링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "날짜/시간 기반 파생변수 생성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "범주형 변수 인코딩",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "텍스트/로그 데이터 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "상호작용 변수 생성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "피처 중요도 기반 변수 필터링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 피처 세트 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-2": [
+          [
+            {
+              "task": "문제 유형에 맞는 알고리즘 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "학습/테스트 데이터 분리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "베이스라인 모델 학습",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "초기 성능 기록",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "성능 비교용 지표 선택",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "베이스라인 오류 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델별 장단점 비교",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 모델 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-0": [
+          [
+            {
+              "task": "교차 검증 전략 설정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "하이퍼파라미터 탐색 범위 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "Grid/Random Search 수행",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "성능 안정성 검증",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "오버피팅 여부 판단",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "튜닝 결과 비교 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최적 모델 저장",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델 결과 해석 노트 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-1": [
+          [
+            {
+              "task": "모델 예측 결과 해석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 인사이트 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "요약 시각화 제작",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "KPI 중심 대시보드 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "차트 스타일 통일",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 스토리 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 배포(노션/태블로 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 QA 및 수정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-2": [
+          [
+            {
+              "task": "보고서 개요 목차 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 메세지 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 방법 및 과정 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "시각화 결과 첨부",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "의사결정 포인트 요약",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "향후 과제 제안",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "발표자료용 슬라이드 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 문서 검토 및 공유",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "center": [
+          [
+            {
+              "task": "분석 주제 정의 및 문제 설정",
+              "startDate": "2025-12-02 (화)",
+              "endDate": "2025-12-11 (목)"
+            },
+            {
+              "task": "데이터 수집 및 정제",
+              "startDate": "2025-12-12 (금)",
+              "endDate": "2026-01-07 (수)"
+            },
+            {
+              "task": "데이터 탐색(EDA) 및 인사이트 도출",
+              "startDate": "2026-01-08 (목)",
+              "endDate": "2026-01-27 (화)"
+            }
+          ],
+          [
+            {
+              "task": "지표·특성 정의 및 피처 엔지니어링",
+              "startDate": "2026-01-28 (수)",
+              "endDate": "2026-02-16 (월)"
+            },
+            {
+              "task": "데이터분석",
+              "startDate": null,
+              "endDate": "2026-04-30"
+            },
+            {
+              "task": "모델 선택 및 베이스라인 모델링",
+              "startDate": "2026-02-17 (화)",
+              "endDate": "2026-03-03 (화)"
+            }
+          ],
+          [
+            {
+              "task": "모델 성능 튜닝 및 교차 검증",
+              "startDate": "2026-03-04 (수)",
+              "endDate": "2026-03-26 (목)"
+            },
+            {
+              "task": "결과 해석 및 시각화 대시보드 제작",
+              "startDate": "2026-03-27 (금)",
+              "endDate": "2026-04-15 (수)"
+            },
+            {
+              "task": "분석 리포트 작성 및 공유 자료 정리",
+              "startDate": "2026-04-16 (목)",
+              "endDate": "2026-04-30 (목)"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1764652316362",
+      "userId": "user2",
+      "createdAt": "2025-12-02 14:11:56",
+      "title": "test5",
+      "data": {
+        "0-0": [
+          [
+            {
+              "task": "비즈니스 목표 재확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 목적과 범위 명확화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "예상되는 핵심 지표 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "문제 유형 분류(예측/분류/군집 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "데이터 요구사항 도출",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "필요한 가설 리스트업",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "이해관계자 요구사항 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 분석 문제 문장화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-1": [
+          [
+            {
+              "task": "데이터 소스 목록화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API/DB/크롤링으로 데이터 수집",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "중복값 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "결측치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "이상치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 형식 통일(문자/숫자/날짜)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "전처리 파이프라인 코드화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "정제된 데이터셋 버전관리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-2": [
+          [
+            {
+              "task": "변수 기초 통계량 확인",
+              "startDate": "2025-12-02 (화)",
+              "endDate": "2025-12-02 (화)"
+            },
+            {
+              "task": "시각화 탐색(히스토그램/박스플롯)",
+              "startDate": "2025-12-03 (수)",
+              "endDate": "2025-12-03 (수)"
+            },
+            {
+              "task": "변수 간 상관관계 분석",
+              "startDate": "2025-12-04 (목)",
+              "endDate": "2025-12-04 (목)"
+            }
+          ],
+          [
+            {
+              "task": "타깃변수 패턴 분석",
+              "startDate": "2025-12-05 (금)",
+              "endDate": "2025-12-05 (금)"
+            },
+            {
+              "task": "데이터 탐색(EDA) 및 인사이트 도출",
+              "startDate": "2026-01-09 (금)",
+              "endDate": "2026-01-28 (수)"
+            },
+            {
+              "task": "기간별 트렌드 분석",
+              "startDate": "2025-12-08 (월)",
+              "endDate": "2025-12-08 (월)"
+            }
+          ],
+          [
+            {
+              "task": "군집/이상 패턴 탐색",
+              "startDate": "2025-12-09 (화)",
+              "endDate": "2025-12-09 (화)"
+            },
+            {
+              "task": "도출된 인사이트 문서화",
+              "startDate": "2025-12-10 (수)",
+              "endDate": "2025-12-10 (수)"
+            },
+            {
+              "task": "EDA 노트북 정리",
+              "startDate": "2025-12-11 (목)",
+              "endDate": "2026-01-28 (수)"
+            }
+          ]
+        ],
+        "1-0": [
+          [
+            {
+              "task": "핵심 KPI 후보군 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기존 변수 변환/스케일링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "날짜/시간 기반 파생변수 생성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "범주형 변수 인코딩",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "텍스트/로그 데이터 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "상호작용 변수 생성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "피처 중요도 기반 변수 필터링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 피처 세트 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-2": [
+          [
+            {
+              "task": "문제 유형에 맞는 알고리즘 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "학습/테스트 데이터 분리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "베이스라인 모델 학습",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "초기 성능 기록",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "성능 비교용 지표 선택",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "베이스라인 오류 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델별 장단점 비교",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 모델 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-0": [
+          [
+            {
+              "task": "교차 검증 전략 설정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "하이퍼파라미터 탐색 범위 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "Grid/Random Search 수행",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "성능 안정성 검증",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "오버피팅 여부 판단",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "튜닝 결과 비교 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최적 모델 저장",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델 결과 해석 노트 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-1": [
+          [
+            {
+              "task": "모델 예측 결과 해석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 인사이트 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "요약 시각화 제작",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "KPI 중심 대시보드 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "차트 스타일 통일",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 스토리 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 배포(노션/태블로 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 QA 및 수정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-2": [
+          [
+            {
+              "task": "보고서 개요 목차 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 메세지 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 방법 및 과정 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "시각화 결과 첨부",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "의사결정 포인트 요약",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "향후 과제 제안",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "발표자료용 슬라이드 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 문서 검토 및 공유",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "center": [
+          [
+            {
+              "task": "분석 주제 정의 및 문제 설정",
+              "startDate": "2025-12-02 (화)",
+              "endDate": "2025-12-11 (목)"
+            },
+            {
+              "task": "데이터 수집 및 정제",
+              "startDate": "2025-12-12 (금)",
+              "endDate": "2026-01-08 (목)"
+            },
+            {
+              "task": "데이터 탐색(EDA) 및 인사이트 도출",
+              "startDate": "2026-01-09 (금)",
+              "endDate": "2026-01-28 (수)"
+            }
+          ],
+          [
+            {
+              "task": "지표·특성 정의 및 피처 엔지니어링",
+              "startDate": "2026-01-29 (목)",
+              "endDate": "2026-02-17 (화)"
+            },
+            {
+              "task": "데이터분석",
+              "startDate": null,
+              "endDate": "2026-05-02"
+            },
+            {
+              "task": "모델 선택 및 베이스라인 모델링",
+              "startDate": "2026-02-18 (수)",
+              "endDate": "2026-03-04 (수)"
+            }
+          ],
+          [
+            {
+              "task": "모델 성능 튜닝 및 교차 검증",
+              "startDate": "2026-03-05 (목)",
+              "endDate": "2026-03-27 (금)"
+            },
+            {
+              "task": "결과 해석 및 시각화 대시보드 제작",
+              "startDate": "2026-03-30 (월)",
+              "endDate": "2026-04-16 (목)"
+            },
+            {
+              "task": "분석 리포트 작성 및 공유 자료 정리",
+              "startDate": "2026-04-17 (금)",
+              "endDate": "2026-05-01 (금)"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1764652564257",
+      "userId": "user2",
+      "createdAt": "2025-12-02 14:16:04",
+      "title": "test6",
+      "data": {
+        "0-0": [
+          [
+            {
+              "task": "비즈니스 목표 재확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 목적과 범위 명확화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "예상되는 핵심 지표 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "문제 유형 분류(예측/분류/군집 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "데이터 요구사항 도출",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "필요한 가설 리스트업",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "이해관계자 요구사항 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 분석 문제 문장화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-1": [
+          [
+            {
+              "task": "데이터 소스 목록화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API/DB/크롤링으로 데이터 수집",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "중복값 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "결측치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "데이터 수집 및 정제",
+              "startDate": "2025-12-10 (수)",
+              "endDate": "2025-12-29 (월)"
+            },
+            {
+              "task": "이상치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 형식 통일(문자/숫자/날짜)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "전처리 파이프라인 코드화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "정제된 데이터셋 버전관리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-2": [
+          [
+            {
+              "task": "변수 기초 통계량 확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "시각화 탐색(히스토그램/박스플롯)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "변수 간 상관관계 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "타깃변수 패턴 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "기간별 트렌드 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "군집/이상 패턴 탐색",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "도출된 인사이트 문서화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "EDA 노트북 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-0": [
+          [
+            {
+              "task": "핵심 KPI 후보군 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기존 변수 변환/스케일링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "날짜/시간 기반 파생변수 생성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "범주형 변수 인코딩",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "텍스트/로그 데이터 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "상호작용 변수 생성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "피처 중요도 기반 변수 필터링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 피처 세트 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-2": [
+          [
+            {
+              "task": "문제 유형에 맞는 알고리즘 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "학습/테스트 데이터 분리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "베이스라인 모델 학습",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "초기 성능 기록",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "성능 비교용 지표 선택",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "베이스라인 오류 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델별 장단점 비교",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 모델 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-0": [
+          [
+            {
+              "task": "교차 검증 전략 설정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "하이퍼파라미터 탐색 범위 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "Grid/Random Search 수행",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "성능 안정성 검증",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "오버피팅 여부 판단",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "튜닝 결과 비교 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최적 모델 저장",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델 결과 해석 노트 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-1": [
+          [
+            {
+              "task": "모델 예측 결과 해석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 인사이트 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "요약 시각화 제작",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "KPI 중심 대시보드 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "차트 스타일 통일",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 스토리 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 배포(노션/태블로 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 QA 및 수정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-2": [
+          [
+            {
+              "task": "보고서 개요 목차 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 메세지 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 방법 및 과정 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "시각화 결과 첨부",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "의사결정 포인트 요약",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "향후 과제 제안",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "발표자료용 슬라이드 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 문서 검토 및 공유",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "center": [
+          [
+            {
+              "task": "분석 주제 정의 및 문제 설정",
+              "startDate": "2025-12-02 (화)",
+              "endDate": "2025-12-09 (화)"
+            },
+            {
+              "task": "데이터 수집 및 정제",
+              "startDate": "2025-12-10 (수)",
+              "endDate": "2025-12-29 (월)"
+            },
+            {
+              "task": "데이터 탐색(EDA) 및 인사이트 도출",
+              "startDate": "2025-12-30 (화)",
+              "endDate": "2026-01-12 (월)"
+            }
+          ],
+          [
+            {
+              "task": "지표·특성 정의 및 피처 엔지니어링",
+              "startDate": "2026-01-13 (화)",
+              "endDate": "2026-01-26 (월)"
+            },
+            {
+              "task": "데이터 분석",
+              "startDate": null,
+              "endDate": "2026-03-19"
+            },
+            {
+              "task": "모델 선택 및 베이스라인 모델링",
+              "startDate": "2026-01-27 (화)",
+              "endDate": "2026-02-05 (목)"
+            }
+          ],
+          [
+            {
+              "task": "모델 성능 튜닝 및 교차 검증",
+              "startDate": "2026-02-06 (금)",
+              "endDate": "2026-02-23 (월)"
+            },
+            {
+              "task": "결과 해석 및 시각화 대시보드 제작",
+              "startDate": "2026-02-24 (화)",
+              "endDate": "2026-03-09 (월)"
+            },
+            {
+              "task": "분석 리포트 작성 및 공유 자료 정리",
+              "startDate": "2026-03-10 (화)",
+              "endDate": "2026-03-19 (목)"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1764655206712",
+      "userId": "user2",
+      "createdAt": "2025-12-02 15:00:06",
+      "title": "test7",
+      "data": {
+        "0-0": [
+          [
+            {
+              "task": "비즈니스 목표 재확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 목적과 범위 명확화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "예상되는 핵심 지표 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "문제 유형 분류(예측/분류/군집 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "데이터 요구사항 도출",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "필요한 가설 리스트업",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "이해관계자 요구사항 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 분석 문제 문장화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-1": [
+          [
+            {
+              "task": "데이터 소스 목록화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API/DB/크롤링으로 데이터 수집",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "중복값 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "결측치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "이상치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 형식 통일(문자/숫자/날짜)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "전처리 파이프라인 코드화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "정제된 데이터셋 버전관리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-2": [
+          [
+            {
+              "task": "변수 기초 통계량 확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "시각화 탐색(히스토그램/박스플롯)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "변수 간 상관관계 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "타깃변수 패턴 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "기간별 트렌드 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "군집/이상 패턴 탐색",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "도출된 인사이트 문서화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "EDA 노트북 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-0": [
+          [
+            {
+              "task": "핵심 KPI 후보군 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기존 변수 변환/스케일링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "날짜/시간 기반 파생변수 생성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "범주형 변수 인코딩",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "텍스트/로그 데이터 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "상호작용 변수 생성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "피처 중요도 기반 변수 필터링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 피처 세트 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-2": [
+          [
+            {
+              "task": "문제 유형에 맞는 알고리즘 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "학습/테스트 데이터 분리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "베이스라인 모델 학습",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "초기 성능 기록",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "성능 비교용 지표 선택",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "베이스라인 오류 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델별 장단점 비교",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 모델 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-0": [
+          [
+            {
+              "task": "교차 검증 전략 설정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "하이퍼파라미터 탐색 범위 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "Grid/Random Search 수행",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "성능 안정성 검증",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "오버피팅 여부 판단",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "튜닝 결과 비교 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최적 모델 저장",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델 결과 해석 노트 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-1": [
+          [
+            {
+              "task": "모델 예측 결과 해석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 인사이트 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "요약 시각화 제작",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "KPI 중심 대시보드 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "차트 스타일 통일",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 스토리 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 배포(노션/태블로 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 QA 및 수정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-2": [
+          [
+            {
+              "task": "보고서 개요 목차 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 메세지 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 방법 및 과정 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "시각화 결과 첨부",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "의사결정 포인트 요약",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "향후 과제 제안",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "발표자료용 슬라이드 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 문서 검토 및 공유",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "center": [
+          [
+            {
+              "task": "분석 주제 정의 및 문제 설정",
+              "startDate": "2025-12-02 (화)",
+              "endDate": "2025-12-11 (목)"
+            },
+            {
+              "task": "데이터 수집 및 정제",
+              "startDate": "2025-12-12 (금)",
+              "endDate": "2026-01-07 (수)"
+            },
+            {
+              "task": "데이터 탐색(EDA) 및 인사이트 도출",
+              "startDate": "2026-01-08 (목)",
+              "endDate": "2026-01-26 (월)"
+            }
+          ],
+          [
+            {
+              "task": "지표·특성 정의 및 피처 엔지니어링",
+              "startDate": "2026-01-27 (화)",
+              "endDate": "2026-02-12 (목)"
+            },
+            {
+              "task": "데이터 분석",
+              "startDate": null,
+              "endDate": "2026-04-24"
+            },
+            {
+              "task": "모델 선택 및 베이스라인 모델링",
+              "startDate": "2026-02-13 (금)",
+              "endDate": "2026-02-27 (금)"
+            }
+          ],
+          [
+            {
+              "task": "모델 성능 튜닝 및 교차 검증",
+              "startDate": "2026-03-02 (월)",
+              "endDate": "2026-03-23 (월)"
+            },
+            {
+              "task": "결과 해석 및 시각화 대시보드 제작",
+              "startDate": "2026-03-24 (화)",
+              "endDate": "2026-04-09 (목)"
+            },
+            {
+              "task": "분석 리포트 작성 및 공유 자료 정리",
+              "startDate": "2026-04-10 (금)",
+              "endDate": "2026-04-24 (금)"
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1764662470488",
+      "userId": "test1",
+      "createdAt": "2025-12-02 17:01:10",
+      "title": "test1",
+      "data": {
+        "0-0": [
+          [
+            {
+              "task": "비즈니스 목표 재확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 목적과 범위 명확화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "예상되는 핵심 지표 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "문제 유형 분류(예측/분류/군집 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "데이터 요구사항 도출",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "필요한 가설 리스트업",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "이해관계자 요구사항 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 분석 문제 문장화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-1": [
+          [
+            {
+              "task": "데이터 소스 목록화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API/DB/크롤링으로 데이터 수집",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "중복값 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "결측치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "이상치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 형식 통일(문자/숫자/날짜)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "전처리 파이프라인 코드화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "정제된 데이터셋 버전관리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-2": [
+          [
+            {
+              "task": "변수 기초 통계량 확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "시각화 탐색(히스토그램/박스플롯)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "변수 간 상관관계 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "타깃변수 패턴 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "데이터 탐색(EDA) 및 인사이트 도출",
+              "startDate": "2026-01-12 (월)",
+              "endDate": "2026-01-30 (금)"
+            },
+            {
+              "task": "기간별 트렌드 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "군집/이상 패턴 탐색",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "도출된 인사이트 문서화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "EDA 노트북 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-0": [
+          [
+            {
+              "task": "핵심 KPI 후보군 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기존 변수 변환/스케일링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "날짜/시간 기반 파생변수 생성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "범주형 변수 인코딩",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "텍스트/로그 데이터 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "상호작용 변수 생성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "피처 중요도 기반 변수 필터링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 피처 세트 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-2": [
+          [
+            {
+              "task": "문제 유형에 맞는 알고리즘 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "학습/테스트 데이터 분리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "베이스라인 모델 학습",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "초기 성능 기록",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "성능 비교용 지표 선택",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "베이스라인 오류 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델별 장단점 비교",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 모델 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-0": [
+          [
+            {
+              "task": "교차 검증 전략 설정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "하이퍼파라미터 탐색 범위 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "Grid/Random Search 수행",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "성능 안정성 검증",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "오버피팅 여부 판단",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "튜닝 결과 비교 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최적 모델 저장",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델 결과 해석 노트 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-1": [
+          [
+            {
+              "task": "모델 예측 결과 해석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 인사이트 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "요약 시각화 제작",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "KPI 중심 대시보드 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "차트 스타일 통일",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 스토리 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 배포(노션/태블로 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 QA 및 수정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-2": [
+          [
+            {
+              "task": "보고서 개요 목차 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 메세지 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 방법 및 과정 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "시각화 결과 첨부",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "의사결정 포인트 요약",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "향후 과제 제안",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "발표자료용 슬라이드 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 문서 검토 및 공유",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "center": [
+          [
+            {
+              "task": "분석 주제 정의 및 문제 설정",
+              "startDate": "2025-12-02 (화)",
+              "endDate": "2025-12-12 (금)",
+              "animate": true
+            },
+            {
+              "task": "데이터 수집 및 정제",
+              "startDate": "2025-12-15 (월)",
+              "endDate": "2026-01-09 (금)",
+              "animate": true
+            },
+            {
+              "task": "데이터 탐색(EDA) 및 인사이트 도출",
+              "startDate": "2026-01-12 (월)",
+              "endDate": "2026-01-30 (금)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "지표·특성 정의 및 피처 엔지니어링",
+              "startDate": "2026-02-02 (월)",
+              "endDate": "2026-02-20 (금)",
+              "animate": true
+            },
+            {
+              "task": "데이터 분석",
+              "startDate": null,
+              "endDate": "2026-05-08"
+            },
+            {
+              "task": "모델 선택 및 베이스라인 모델링",
+              "startDate": "2026-02-23 (월)",
+              "endDate": "2026-03-10 (화)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "모델 성능 튜닝 및 교차 검증",
+              "startDate": "2026-03-11 (수)",
+              "endDate": "2026-04-03 (금)",
+              "animate": true
+            },
+            {
+              "task": "결과 해석 및 시각화 대시보드 제작",
+              "startDate": "2026-04-06 (월)",
+              "endDate": "2026-04-24 (금)",
+              "animate": true
+            },
+            {
+              "task": "분석 리포트 작성 및 공유 자료 정리",
+              "startDate": "2026-04-27 (월)",
+              "endDate": "2026-05-08 (금)",
+              "animate": true
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1764663905372",
+      "userId": "test1",
+      "createdAt": "2025-12-02 17:25:05",
+      "title": "test2",
+      "data": {
+        "0-0": [
+          [
+            {
+              "task": "비즈니스 목표 재확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 목적과 범위 명확화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "예상되는 핵심 지표 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "문제 유형 분류(예측/분류/군집 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "데이터 요구사항 도출",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "필요한 가설 리스트업",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "이해관계자 요구사항 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 분석 문제 문장화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-1": [
+          [
+            {
+              "task": "데이터 소스 목록화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API/DB/크롤링으로 데이터 수집",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "중복값 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "결측치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "이상치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 형식 통일(문자/숫자/날짜)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "전처리 파이프라인 코드화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "정제된 데이터셋 버전관리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-2": [
+          [
+            {
+              "task": "변수 기초 통계량 확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "시각화 탐색(히스토그램/박스플롯)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "변수 간 상관관계 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "타깃변수 패턴 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "데이터 탐색(EDA) 및 인사이트 도출",
+              "startDate": "2026-01-15 (목)",
+              "endDate": "2026-02-05 (목)"
+            },
+            {
+              "task": "기간별 트렌드 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "군집/이상 패턴 탐색",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "도출된 인사이트 문서화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "EDA 노트북 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-0": [
+          [
+            {
+              "task": "핵심 KPI 후보군 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기존 변수 변환/스케일링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "날짜/시간 기반 파생변수 생성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "범주형 변수 인코딩",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "텍스트/로그 데이터 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "상호작용 변수 생성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "피처 중요도 기반 변수 필터링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 피처 세트 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-2": [
+          [
+            {
+              "task": "문제 유형에 맞는 알고리즘 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "학습/테스트 데이터 분리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "베이스라인 모델 학습",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "초기 성능 기록",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "성능 비교용 지표 선택",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "베이스라인 오류 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델별 장단점 비교",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 모델 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-0": [
+          [
+            {
+              "task": "교차 검증 전략 설정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "하이퍼파라미터 탐색 범위 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "Grid/Random Search 수행",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "성능 안정성 검증",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "오버피팅 여부 판단",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "튜닝 결과 비교 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최적 모델 저장",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델 결과 해석 노트 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-1": [
+          [
+            {
+              "task": "모델 예측 결과 해석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 인사이트 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "요약 시각화 제작",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "KPI 중심 대시보드 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "차트 스타일 통일",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 스토리 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 배포(노션/태블로 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 QA 및 수정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-2": [
+          [
+            {
+              "task": "보고서 개요 목차 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 메세지 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 방법 및 과정 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "시각화 결과 첨부",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "의사결정 포인트 요약",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "향후 과제 제안",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "발표자료용 슬라이드 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 문서 검토 및 공유",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "center": [
+          [
+            {
+              "task": "분석 주제 정의 및 문제 설정",
+              "startDate": "2025-12-02 (화)",
+              "endDate": "2025-12-15 (월)",
+              "animate": true
+            },
+            {
+              "task": "데이터 수집 및 정제",
+              "startDate": "2025-12-16 (화)",
+              "endDate": "2026-01-14 (수)",
+              "animate": true
+            },
+            {
+              "task": "데이터 탐색(EDA) 및 인사이트 도출",
+              "startDate": "2026-01-15 (목)",
+              "endDate": "2026-02-05 (목)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "지표·특성 정의 및 피처 엔지니어링",
+              "startDate": "2026-02-06 (금)",
+              "endDate": "2026-02-27 (금)",
+              "animate": true
+            },
+            {
+              "task": "데이터분석",
+              "startDate": null,
+              "endDate": "2026-05-22"
+            },
+            {
+              "task": "모델 선택 및 베이스라인 모델링",
+              "startDate": "2026-03-02 (월)",
+              "endDate": "2026-03-18 (수)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "모델 성능 튜닝 및 교차 검증",
+              "startDate": "2026-03-19 (목)",
+              "endDate": "2026-04-14 (화)",
+              "animate": true
+            },
+            {
+              "task": "결과 해석 및 시각화 대시보드 제작",
+              "startDate": "2026-04-15 (수)",
+              "endDate": "2026-05-06 (수)",
+              "animate": true
+            },
+            {
+              "task": "분석 리포트 작성 및 공유 자료 정리",
+              "startDate": "2026-05-07 (목)",
+              "endDate": "2026-05-22 (금)",
+              "animate": true
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1764665401261",
+      "userId": "test1",
+      "createdAt": "2025-12-02 17:50:01",
+      "title": "test3",
+      "data": {
+        "0-0": [
+          [
+            {
+              "task": "비즈니스 목표 재확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 목적과 범위 명확화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "예상되는 핵심 지표 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "문제 유형 분류(예측/분류/군집 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 주제 정의 및 문제 설정",
+              "startDate": "2025-12-02 (화)",
+              "endDate": "2025-12-09 (화)"
+            },
+            {
+              "task": "데이터 요구사항 도출",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "필요한 가설 리스트업",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "이해관계자 요구사항 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 분석 문제 문장화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-1": [
+          [
+            {
+              "task": "데이터 소스 목록화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API/DB/크롤링으로 데이터 수집",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "중복값 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "결측치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "이상치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 형식 통일(문자/숫자/날짜)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "전처리 파이프라인 코드화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "정제된 데이터셋 버전관리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-2": [
+          [
+            {
+              "task": "변수 기초 통계량 확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "시각화 탐색(히스토그램/박스플롯)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "변수 간 상관관계 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "타깃변수 패턴 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "기간별 트렌드 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "군집/이상 패턴 탐색",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "도출된 인사이트 문서화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "EDA 노트북 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-0": [
+          [
+            {
+              "task": "핵심 KPI 후보군 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기존 변수 변환/스케일링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "날짜/시간 기반 파생변수 생성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "범주형 변수 인코딩",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "텍스트/로그 데이터 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "상호작용 변수 생성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "피처 중요도 기반 변수 필터링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 피처 세트 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-2": [
+          [
+            {
+              "task": "문제 유형에 맞는 알고리즘 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "학습/테스트 데이터 분리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "베이스라인 모델 학습",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "초기 성능 기록",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "성능 비교용 지표 선택",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "베이스라인 오류 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델별 장단점 비교",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 모델 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-0": [
+          [
+            {
+              "task": "교차 검증 전략 설정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "하이퍼파라미터 탐색 범위 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "Grid/Random Search 수행",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "성능 안정성 검증",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "오버피팅 여부 판단",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "튜닝 결과 비교 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최적 모델 저장",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델 결과 해석 노트 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-1": [
+          [
+            {
+              "task": "모델 예측 결과 해석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 인사이트 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "요약 시각화 제작",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "KPI 중심 대시보드 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "차트 스타일 통일",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 스토리 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 배포(노션/태블로 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 QA 및 수정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-2": [
+          [
+            {
+              "task": "보고서 개요 목차 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 메세지 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 방법 및 과정 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "시각화 결과 첨부",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "의사결정 포인트 요약",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "향후 과제 제안",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "발표자료용 슬라이드 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 문서 검토 및 공유",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "center": [
+          [
+            {
+              "task": "분석 주제 정의 및 문제 설정",
+              "startDate": "2025-12-02 (화)",
+              "endDate": "2025-12-09 (화)",
+              "animate": true
+            },
+            {
+              "task": "데이터 수집 및 정제",
+              "startDate": "2025-12-10 (수)",
+              "endDate": "2025-12-30 (화)",
+              "animate": true
+            },
+            {
+              "task": "데이터 탐색(EDA) 및 인사이트 도출",
+              "startDate": "2025-12-31 (수)",
+              "endDate": "2026-01-14 (수)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "지표·특성 정의 및 피처 엔지니어링",
+              "startDate": "2026-01-15 (목)",
+              "endDate": "2026-01-29 (목)",
+              "animate": true
+            },
+            {
+              "task": "데이터 분석",
+              "startDate": null,
+              "endDate": "2026-03-27"
+            },
+            {
+              "task": "모델 선택 및 베이스라인 모델링",
+              "startDate": "2026-01-30 (금)",
+              "endDate": "2026-02-11 (수)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "모델 성능 튜닝 및 교차 검증",
+              "startDate": "2026-02-12 (목)",
+              "endDate": "2026-03-02 (월)",
+              "animate": true
+            },
+            {
+              "task": "결과 해석 및 시각화 대시보드 제작",
+              "startDate": "2026-03-03 (화)",
+              "endDate": "2026-03-17 (화)",
+              "animate": true
+            },
+            {
+              "task": "분석 리포트 작성 및 공유 자료 정리",
+              "startDate": "2026-03-18 (수)",
+              "endDate": "2026-03-27 (금)",
+              "animate": true
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1764667211977",
+      "userId": "test1",
+      "createdAt": "2025-12-02 18:20:11",
+      "title": "test4",
+      "data": {
+        "0-0": [
+          [
+            {
+              "task": "잠재 고객군 조사(인구통계·행동 특성 수집)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 동기 분석(페인포인트·니즈 도출)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 세그먼트 분류 기준 설정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "핵심 사용자 그룹 우선순위 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "페르소나 템플릿 구조 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "대표 페르소나 2~3명 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "페르소나 기반 주요 사용 시나리오 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "페르소나 검증(리서치 반영 및 보완)",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-1": [
+          [
+            {
+              "task": "문제 상황 수집(정성·정량 리서치)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 문제(Real Problem) 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "문제 영향도/심각도 우선순위 설정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "솔루션 방향성 브레인스토밍",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "핵심 가치 제안(Value Proposition) 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "차별화 포인트 및 경쟁 대비 우위 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "가설 기반 사용자 가치 흐름(Value Flow) 설계",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "문제-가치 제안 최종 검증 및 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-2": [
+          [
+            {
+              "task": "경쟁·유사 서비스 목록 수집",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기능/UX 분석 프레임워크 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 기능 비교 테이블 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "온보딩/메인 기능 플로우 비교",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "시장 포지션·비즈니스 모델 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "경쟁사 강점·약점 파악(SWOT)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "차별화 아이디어 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "벤치마킹 리포트 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-0": [
+          [
+            {
+              "task": "서비스 전체 플로우 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI가 기여 가능한 구간 후보 발굴",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 행동 데이터 종류 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "AI 모델 학습에 필요한 데이터 양/형태 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "데이터 수집 방법(자동/수동) 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 품질 기준 및 라벨링 방안 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 적용 우선순위 결정(ROI 기준)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 요구 데이터 사양서 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-2": [
+          [
+            {
+              "task": "핵심 사용자 시나리오 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "시나리오 기반 화면 흐름 기획",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "주요 기능별 인터랙션 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "예외 상황·에러 플로우 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "AI 개입 지점 표시 및 역할 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "플로우 기반 기능 우선순위 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "플로우 검증(팀 리뷰·리서치 반영)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 플로우 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-0": [
+          [
+            {
+              "task": "핵심 화면 구성요소(Block) 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "Low-fidelity 와이어프레임 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "온보딩·메인·피드백 화면 연동",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "AI 관련 표현요소 UI 시안 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "네비게이션 구조 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "사용성 검토 및 간단한 테스트",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "개선사항 반영 및 와이어프레임 고도화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기획 문서에 와이어프레임 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-1": [
+          [
+            {
+              "task": "AI 모델 입력/출력 포맷 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API 스펙(엔드포인트·파라미터) 설계",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 응답 처리 플로우 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "지연 시간·성능 요구사항 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "오류 처리 및 Fallback 전략 기획",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "예상 토큰/비용 산정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 호출 정책(빈도·쿨다운) 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API 연동 시나리오 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-2": [
+          [
+            {
+              "task": "서비스 기능 범위 정의(MVP/Full)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "개발 우선순위 기반 Roadmap 기획",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "마일스톤 기준 설정(Scope 기준)",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "기능별 개발 일정 Rough 산정",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "리소스/역할별 작업 할당 구조 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "리스크 요소 도출 및 대응전략 마련",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "릴리즈 계획 및 배포 단계 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 로드맵 문서화 및 공유 준비",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "center": [
+          [
+            {
+              "task": "타깃 사용자 정의 및 페르소나 설계",
+              "startDate": "2025-12-02 (화)",
+              "endDate": "2025-12-10 (수)",
+              "animate": true
+            },
+            {
+              "task": "문제 정의 및 서비스 가치 제안 정리",
+              "startDate": "2025-12-11 (목)",
+              "endDate": "2025-12-19 (금)",
+              "animate": true
+            },
+            {
+              "task": "경쟁 서비스 리서치 및 벤치마킹",
+              "startDate": "2025-12-22 (월)",
+              "endDate": "2026-01-01 (목)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "AI 적용 가능 영역 및 요구 데이터 정의",
+              "startDate": "2026-01-02 (금)",
+              "endDate": "2026-01-16 (금)",
+              "animate": true
+            },
+            {
+              "task": "서비스 기획",
+              "startDate": null,
+              "endDate": "2026-03-12"
+            },
+            {
+              "task": "핵심 기능(핵심 시나리오) 플로우 설계",
+              "startDate": "2026-01-19 (월)",
+              "endDate": "2026-01-29 (목)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "와이어프레임 / UX 플로우 초안 제작",
+              "startDate": "2026-01-30 (금)",
+              "endDate": "2026-02-13 (금)",
+              "animate": true
+            },
+            {
+              "task": "AI 모델 요구사항 및 API 연동 방식 정의",
+              "startDate": "2026-02-16 (월)",
+              "endDate": "2026-02-26 (목)",
+              "animate": true
+            },
+            {
+              "task": "서비스 로드맵 및 릴리즈 마일스톤 기획",
+              "startDate": "2026-02-27 (금)",
+              "endDate": "2026-03-12 (목)",
+              "animate": true
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1764727291506",
+      "userId": "test",
+      "createdAt": "2025-12-03 11:01:31",
+      "title": "서비스 기획",
+      "data": {
+        "0-0": [
+          [
+            {
+              "task": "잠재 고객군 조사(인구통계·행동 특성 수집)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 동기 분석(페인포인트·니즈 도출)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 세그먼트 분류 기준 설정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "핵심 사용자 그룹 우선순위 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "페르소나 템플릿 구조 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "대표 페르소나 2~3명 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "페르소나 기반 주요 사용 시나리오 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "페르소나 검증(리서치 반영 및 보완)",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-1": [
+          [
+            {
+              "task": "문제 상황 수집(정성·정량 리서치)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 문제(Real Problem) 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "문제 영향도/심각도 우선순위 설정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "솔루션 방향성 브레인스토밍",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "문제 정의 및 서비스 가치 제안 정리",
+              "startDate": "2025-12-05 (금)",
+              "endDate": "2025-12-08 (월)"
+            },
+            {
+              "task": "핵심 가치 제안(Value Proposition) 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "차별화 포인트 및 경쟁 대��� 우위 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "가설 기반 사용자 가치 흐름(Value Flow) 설계",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "문제-가치 제안 최종 검증 및 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-2": [
+          [
+            {
+              "task": "경쟁·유사 서비스 목록 수집",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기능/UX 분석 프레임워크 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 기능 비교 테이블 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "온보딩/메인 기능 플로우 비교",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "시장 포지션·비즈니스 모델 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "경쟁사 강점·약점 파악(SWOT)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "차별화 아이디어 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "벤치마킹 리포트 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-0": [
+          [
+            {
+              "task": "서비스 전체 플로우 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI가 기여 가능한 구간 후보 발굴",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 행동 데이터 종류 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "AI 모델 학습에 필요한 데이터 양/형태 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "데이터 수집 방법(자동/수동) 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 품질 기준 및 라벨링 방안 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 적용 우선순위 결정(ROI 기준)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 요구 데이터 사양서 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-2": [
+          [
+            {
+              "task": "핵심 사용자 시나리오 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "시나리오 기반 화면 흐름 기획",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "주요 기능별 인터랙션 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "예외 상황·에러 플로우 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "AI 개입 지점 표시 및 역할 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "플로우 기반 기능 우선순위 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "플로우 검증(팀 리뷰·리서치 반영)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 플로우 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-0": [
+          [
+            {
+              "task": "핵심 화면 구성요소(Block) 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "Low-fidelity 와이어프레임 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "온보딩·메인·피드백 화면 연동",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "AI 관련 표현요소 UI 시안 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "네비게이션 구조 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "사용성 검토 및 간단한 테스트",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "개선사항 반영 및 와이어프레임 고도화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기획 문서에 와이어프레임 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-1": [
+          [
+            {
+              "task": "AI 모델 입력/출력 포맷 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API 스펙(엔드포인트·파라미터) 설계",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 응답 처리 플로우 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "지연 시간·성능 요구사항 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "오류 처리 및 Fallback 전략 기획",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "예상 토큰/비용 산정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 호출 정책(빈도·쿨다운) 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API 연동 시나리오 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-2": [
+          [
+            {
+              "task": "서비스 기능 범위 정의(MVP/Full)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "개발 우선순위 기반 Roadmap 기획",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "마일스톤 기준 설정(Scope 기준)",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "기능별 개발 일정 Rough 산정",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "리소스/역할별 작업 할당 구조 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "리스크 요소 도출 및 대응전략 마련",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "릴리즈 계획 및 배포 단계 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 로드맵 문서화 및 공유 준비",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "center": [
+          [
+            {
+              "task": "타깃 사용자 정의 및 페르소나 설계",
+              "startDate": "2025-12-03 (수)",
+              "endDate": "2025-12-04 (목)",
+              "animate": true
+            },
+            {
+              "task": "문제 정의 및 서비스 가치 제안 정리",
+              "startDate": "2025-12-05 (금)",
+              "endDate": "2025-12-08 (월)",
+              "animate": true
+            },
+            {
+              "task": "경쟁 서비스 리서치 및 벤치마킹",
+              "startDate": "2025-12-09 (화)",
+              "endDate": "2025-12-11 (목)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "AI 적용 가능 영역 및 요구 데이터 정의",
+              "startDate": "2025-12-12 (금)",
+              "endDate": "2025-12-16 (화)",
+              "animate": true
+            },
+            {
+              "task": "서비스 기획",
+              "startDate": null,
+              "endDate": "2025-12-30"
+            },
+            {
+              "task": "핵심 기능(핵심 시나리오) 플로우 설계",
+              "startDate": "2025-12-17 (수)",
+              "endDate": "2025-12-19 (금)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "와이어프레임 / UX 플로우 초안 제작",
+              "startDate": "2025-12-22 (월)",
+              "endDate": "2025-12-24 (수)",
+              "animate": true
+            },
+            {
+              "task": "AI 모델 요구사항 및 API 연동 방식 정의",
+              "startDate": "2025-12-25 (목)",
+              "endDate": "2025-12-29 (월)",
+              "animate": true
+            },
+            {
+              "task": "서비스 로드맵 및 릴리즈 마일스톤 기획",
+              "startDate": "2025-12-30 (화)",
+              "endDate": "2025-12-30 (화)",
+              "animate": true
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1764752574990",
+      "userId": "test1",
+      "createdAt": "2025-12-03 18:02:54",
+      "title": "데이터분석",
+      "data": {
+        "0-0": [
+          [
+            {
+              "task": "비즈니스 목표 재확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 목적과 범위 명확화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "예상되는 핵심 지표 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "문제 유형 분류(예측/분류/군집 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "데이터 요구사항 도출",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "필요한 가설 리스트업",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "이해관계자 요구사항 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 분석 문제 문장화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-1": [
+          [
+            {
+              "task": "데이터 소스 목록화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API/DB/크롤링으로 데이터 수집",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "중복값 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "결측치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "이상치 탐색 및 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 형식 통일(문자/숫자/날짜)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "전처리 파이프라인 코드화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "정제된 데이터셋 버전관리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-2": [
+          [
+            {
+              "task": "변수 기초 통계량 확인",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "시각화 탐색(히스토그램/박스플롯)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "변수 간 상관관계 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "타깃변수 패턴 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "기간별 트렌드 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "군집/이상 패턴 탐색",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "도출된 인사이트 문서화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "EDA 노트북 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-0": [
+          [
+            {
+              "task": "핵심 KPI 후보군 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기존 변수 변환/스케일링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "날짜/시간 기반 파생변수 생성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "범주형 변수 인코딩",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "텍스트/로그 데이터 처리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "상호작용 변수 생성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "피처 중요도 기반 변수 필터링",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 피처 세트 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-2": [
+          [
+            {
+              "task": "문제 유형에 맞는 알고리즘 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "학습/테스트 데이터 분리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "베이스라인 모델 학습",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "초기 성능 기록",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "성능 비교용 지표 선���",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "베이스라인 오류 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델별 장단점 비교",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 모델 후보 선정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-0": [
+          [
+            {
+              "task": "교차 검증 전략 설정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "하이퍼파라미터 탐색 범위 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "Grid/Random Search 수행",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "성능 안정성 검증",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "오버피팅 여부 판단",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "튜닝 결과 비교 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최적 모델 저장",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "모델 결과 해석 노트 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-1": [
+          [
+            {
+              "task": "모델 예측 결과 해석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 인사이트 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "요약 시각화 제작",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "KPI 중심 대시보드 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "차트 스타일 통일",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 스토리 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 배포(노션/태블로 등)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "대시보드 QA 및 수정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-2": [
+          [
+            {
+              "task": "보고서 개요 목차 구성",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 메세지 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "분석 방법 및 과정 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "시각화 결과 첨부",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "의사결정 포인트 요약",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "향후 과제 제안",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "발표자료용 슬라이드 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 문서 검토 및 공유",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "center": [
+          [
+            {
+              "task": "분석 주제 정의 및 문제 설정",
+              "startDate": "2025-12-03 (수)",
+              "endDate": "2025-12-08 (월)",
+              "animate": true
+            },
+            {
+              "task": "데이터 수집 및 정제",
+              "startDate": "2025-12-09 (화)",
+              "endDate": "2025-12-19 (금)",
+              "animate": true
+            },
+            {
+              "task": "데이터 탐색(EDA) 및 인사이트 도출",
+              "startDate": "2025-12-22 (월)",
+              "endDate": "2025-12-29 (월)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "지표·특성 정의 및 피처 엔지니어링",
+              "startDate": "2025-12-30 (화)",
+              "endDate": "2026-01-06 (화)",
+              "animate": true
+            },
+            {
+              "task": "데이터분석",
+              "startDate": null,
+              "endDate": "2026-02-06"
+            },
+            {
+              "task": "모델 선택 및 베이스라인 모델링",
+              "startDate": "2026-01-07 (수)",
+              "endDate": "2026-01-13 (화)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "모델 성능 튜닝 및 교차 검증",
+              "startDate": "2026-01-14 (수)",
+              "endDate": "2026-01-22 (목)",
+              "animate": true
+            },
+            {
+              "task": "결과 해석 및 시각화 대시보드 제작",
+              "startDate": "2026-01-23 (금)",
+              "endDate": "2026-01-30 (금)",
+              "animate": true
+            },
+            {
+              "task": "분석 리포트 작성 및 공유 자료 정리",
+              "startDate": "2026-02-02 (월)",
+              "endDate": "2026-02-06 (금)",
+              "animate": true
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1764752645229",
+      "userId": "test1",
+      "createdAt": "2025-12-03 18:04:05",
+      "title": "서비스기획",
+      "data": {
+        "0-0": [
+          [
+            {
+              "task": "잠재 고객군 조사(인구통계·행동 특성 수집)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 동기 분석(페인포인트·니즈 도출)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 세그먼트 분류 기준 설정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "핵심 사용자 그룹 우선순위 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "페르소나 템플릿 구조 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "대표 페르소나 2~3명 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "페르소나 기반 주요 사용 시나리오 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "페르소나 검증(리서치 반영 및 보완)",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-1": [
+          [
+            {
+              "task": "문제 상황 수집(정성·정량 리서치)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 문제(Real Problem) 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "문제 영향도/심각도 우선순위 설정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "솔루션 방향성 브레인스토밍",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "핵심 가치 제안(Value Proposition) 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "차별화 포인트 및 경쟁 대비 우위 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "가설 기반 사용자 가치 흐름(Value Flow) 설계",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "문제-가치 제안 최종 검증 및 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-2": [
+          [
+            {
+              "task": "경쟁·유사 서비스 목록 수집",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기능/UX 분석 프레임워크 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 기능 비교 테이블 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "온보딩/메인 기능 플로우 비교",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "시장 포지션·비즈니스 모델 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "경쟁사 강점·약점 파악(SWOT)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "차별화 아이디어 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "벤치마킹 리포트 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-0": [
+          [
+            {
+              "task": "서비스 전체 플로우 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI가 기여 가능한 구간 후보 발굴",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 행동 데이터 종류 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "AI 모델 학습에 필요한 데이터 양/형태 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "데이터 수집 방법(자동/수동) 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 품질 기준 및 라벨링 방안 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 적용 우선순위 결정(ROI 기준)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 요구 데이터 사양서 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-2": [
+          [
+            {
+              "task": "핵심 사용자 시나리오 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "시나리오 기반 화면 흐름 기획",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "주요 기능별 인터랙션 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "예외 상황·에러 플로우 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "AI 개입 지점 표시 및 역할 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "플로우 기반 기능 우선순위 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "플로우 검증(팀 리뷰·리서치 반영)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 플로우 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-0": [
+          [
+            {
+              "task": "핵심 화면 구성요소(Block) 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "Low-fidelity 와이어프레임 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "온보딩·메인·피드백 화면 연동",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "AI 관련 표현요소 UI 시안 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "네비게이션 구조 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "사용성 검토 및 간단한 테스트",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "개선사항 반영 및 와이어프레임 고도화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기획 문서에 와이어프레임 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-1": [
+          [
+            {
+              "task": "AI 모델 입력/출력 포맷 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API 스펙(엔드포인트·파라미터) 설계",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 응답 처리 플로우 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "지연 시간·성능 요구사항 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "오류 처리 및 Fallback 전략 기획",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "예상 토큰/비용 산정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 호출 정책(빈도·쿨다운) 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API 연동 시나리오 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-2": [
+          [
+            {
+              "task": "서비스 기능 범위 정의(MVP/Full)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "개발 우선순위 기반 Roadmap 기획",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "마일스톤 기준 설정(Scope 기준)",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "기능별 개발 일정 Rough 산정",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "리소스/역할별 작업 할당 구조 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "리스크 요소 도출 및 대응전략 마련",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "릴리즈 계획 및 배포 단계 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 로드맵 문서화 및 공유 준비",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "center": [
+          [
+            {
+              "task": "타깃 사용자 정의 및 페르소나 설계",
+              "startDate": "2025-12-03 (수)",
+              "endDate": "2025-12-05 (금)",
+              "animate": true
+            },
+            {
+              "task": "문제 정의 및 서비스 가치 제안 정리",
+              "startDate": "2025-12-08 (월)",
+              "endDate": "2025-12-10 (수)",
+              "animate": true
+            },
+            {
+              "task": "경쟁 서비스 리서치 및 벤치마킹",
+              "startDate": "2025-12-11 (목)",
+              "endDate": "2025-12-15 (월)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "AI 적용 가능 영역 및 요구 데이터 정의",
+              "startDate": "2025-12-16 (화)",
+              "endDate": "2025-12-19 (금)",
+              "animate": true
+            },
+            {
+              "task": "서비스기획",
+              "startDate": null,
+              "endDate": "2026-01-08"
+            },
+            {
+              "task": "핵심 기능(핵심 시나리오) 플로우 설계",
+              "startDate": "2025-12-22 (월)",
+              "endDate": "2025-12-24 (수)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "와이어프레임 / UX 플로우 초안 제작",
+              "startDate": "2025-12-25 (목)",
+              "endDate": "2025-12-30 (화)",
+              "animate": true
+            },
+            {
+              "task": "AI 모델 요구사항 및 API 연동 방식 정의",
+              "startDate": "2025-12-31 (수)",
+              "endDate": "2026-01-02 (금)",
+              "animate": true
+            },
+            {
+              "task": "서비스 로드맵 및 릴리즈 마일스톤 기획",
+              "startDate": "2026-01-05 (월)",
+              "endDate": "2026-01-08 (목)",
+              "animate": true
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1765339589631",
+      "userId": "demo",
+      "createdAt": "2025-12-10 13:06:29",
+      "title": "test 1",
+      "data": {
+        "0-0": [
+          [
+            {
+              "task": "잠재 고객군 조사(인구통계·행동 특성 수집)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 동기 분석(페인포인트·니즈 도출)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 세그먼트 분류 기준 설정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "핵심 사용자 그룹 우선순위 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "페르소나 템플릿 구조 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "대표 페르소나 2~3명 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "페르소나 기반 주요 사용 시나리오 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "페르소나 검증(리서치 반영 및 보완)",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-1": [
+          [
+            {
+              "task": "문제 상황 수집(정성·정량 리서치)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 문제(Real Problem) 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "문제 영향도/심각도 우선순위 설정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "솔루션 방향성 브레인스토밍",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "핵심 가치 제안(Value Proposition) 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "차별화 포인트 및 경쟁 대비 우위 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "가설 기반 사용자 가치 흐름(Value Flow) 설계",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "문제-가치 제안 최종 검증 및 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-2": [
+          [
+            {
+              "task": "경쟁·유사 서비스 목록 수집",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기능/UX 분석 프레임워크 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 기능 비교 테이블 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "온보딩/메인 기능 플로우 비교",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "경쟁 서비스 리서치 및 벤치마킹",
+              "startDate": "2025-12-26 (금)",
+              "endDate": "2026-01-05 (월)"
+            },
+            {
+              "task": "시장 포지션·비즈니스 모델 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "경쟁사 강점·약점 파악(SWOT)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "차별화 아이디어 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "벤치마킹 리포트 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-0": [
+          [
+            {
+              "task": "서비스 전체 플로우 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI가 기여 가능한 구간 후보 발굴",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 행동 데이터 종류 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "AI 모델 학습에 필요한 데이터 양/형태 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 적용 가능 영역 및 요구 데이터 정의",
+              "startDate": "2026-01-06 (화)",
+              "endDate": "2026-01-16 (금)"
+            },
+            {
+              "task": "데이터 수집 방법(자동/수동) 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 품질 기준 및 라벨링 방안 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 적용 우선순위 결정(ROI 기준)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 요구 데이터 사양서 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-2": [
+          [
+            {
+              "task": "핵심 사용자 시나리오 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "시나리오 기반 화면 흐름 기획",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "주요 기능별 인터랙션 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "예외 상황·에러 플로우 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "AI 개입 지점 표시 및 역할 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "플로우 기반 기능 우선순위 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "플로우 검증(팀 리뷰·리서치 반영)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 플로우 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-0": [
+          [
+            {
+              "task": "핵심 화면 구성요소(Block) 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "Low-fidelity 와이어프레임 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "온보딩·메인·피드백 화면 연동",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "AI 관련 표현요소 UI 시안 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "네비게이션 구조 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "사용성 검토 및 간단한 테스트",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "개선사항 반영 및 와이어프레임 고도화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기획 문서에 와이어프레임 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-1": [
+          [
+            {
+              "task": "AI 모델 입력/출력 포맷 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API 스펙(엔드포인트·파라미터) 설계",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 응답 처리 플로우 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "지연 시간·성능 요구사항 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "오류 처리 및 Fallback 전략 기획",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "예상 토큰/비용 산정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 호출 정책(빈도·쿨다운) 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API 연동 시나리오 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-2": [
+          [
+            {
+              "task": "서비스 기능 범위 정의(MVP/Full)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "개발 우선순위 기반 Roadmap 기획",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "마일스톤 기준 설정(Scope 기준)",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "기능별 개발 일정 Rough 산정",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "리소스/역할별 작업 할당 구조 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "리스크 요소 도출 및 대응전략 마련",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "릴리즈 계획 및 배포 단계 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 로드맵 문서화 및 공유 준비",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "center": [
+          [
+            {
+              "task": "타깃 사용자 정의 및 페르소나 설계",
+              "startDate": "2025-12-10 (수)",
+              "endDate": "2025-12-17 (수)",
+              "animate": true
+            },
+            {
+              "task": "문제 정의 및 서비스 가치 제안 정리",
+              "startDate": "2025-12-18 (목)",
+              "endDate": "2025-12-25 (목)",
+              "animate": true
+            },
+            {
+              "task": "경쟁 서비스 리서치 및 벤치마킹",
+              "startDate": "2025-12-26 (금)",
+              "endDate": "2026-01-05 (월)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "AI 적용 가능 영역 및 요구 데이터 정의",
+              "startDate": "2026-01-06 (화)",
+              "endDate": "2026-01-16 (금)",
+              "animate": true
+            },
+            {
+              "task": "만다라트 서비스 기획",
+              "startDate": null,
+              "endDate": "2026-02-28"
+            },
+            {
+              "task": "핵심 기능(핵심 시나리오) 플로우 설계",
+              "startDate": "2026-01-19 (월)",
+              "endDate": "2026-01-27 (화)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "와이어프레임 / UX 플로우 초안 제작",
+              "startDate": "2026-01-28 (수)",
+              "endDate": "2026-02-09 (월)",
+              "animate": true
+            },
+            {
+              "task": "AI 모델 요구사항 및 API 연동 방식 정의",
+              "startDate": "2026-02-10 (화)",
+              "endDate": "2026-02-18 (수)",
+              "animate": true
+            },
+            {
+              "task": "서비스 로드맵 및 릴리즈 마일스톤 기획",
+              "startDate": "2026-02-19 (목)",
+              "endDate": "2026-02-27 (금)",
+              "animate": true
+            }
+          ]
+        ]
+      }
+    },
+    {
+      "id": "1765344740942",
+      "userId": "demo",
+      "createdAt": "2025-12-10 14:32:20",
+      "title": "만다라트 서비스기획",
+      "data": {
+        "0-0": [
+          [
+            {
+              "task": "잠재 고객군 조사(인구통계·행동 특성 수집)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 동기 분석(페인포인트·니즈 도출)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 세그먼트 분류 기준 설정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "핵심 사용자 그룹 우선순위 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "타깃 사용자 정의 및 페르소나 설계",
+              "startDate": "2025-12-10 (수)",
+              "endDate": "2025-12-17 (수)"
+            },
+            {
+              "task": "페르소나 템플릿 구조 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "가나라다",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "페르소나 기반 주요 사용 시나리오 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "페르소나 검증(리서치 반영 및 보완)",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-1": [
+          [
+            {
+              "task": "문제 상황 수집(정성·정량 리서치)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 문제(Real Problem) 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "문제 영향도/심각도 우선순위 설정",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "솔루션 방향성 브레인스토밍",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "핵심 가치 제안(Value Proposition) 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "차별화 포인트 및 경쟁 대비 우위 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "가설 기반 사용자 가치 흐름(Value Flow) 설계",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "문제-가치 제안 최종 검증 및 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "0-2": [
+          [
+            {
+              "task": "경쟁·유사 서비스 목록 수집",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기능/UX 분석 프레임워크 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "핵심 기능 비교 테이블 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "온보딩/메인 기능 플로우 비교",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "시장 포지션·비즈니스 모델 분석",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "경쟁사 강점·약점 파악(SWOT)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "차별화 아이디어 도출",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "벤치마킹 리포트 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-0": [
+          [
+            {
+              "task": "서비스 전체 플로우 분석",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI가 기여 가능한 구간 후보 발굴",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "사용자 행동 데이터 종류 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "AI 모델 학습에 필요한 데이터 양/형태 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "데이터 수집 방법(자동/수동) 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "데이터 품질 기준 및 라벨링 방안 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 적용 우���순위 결정(ROI 기준)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 요구 데이터 사양서 작성",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "1-2": [
+          [
+            {
+              "task": "핵심 사용자 시나리오 선정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "시나리오 기반 화면 흐름 기획",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "주요 기능별 인터랙션 정의",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "예외 상황·에러 플로우 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "AI 개입 지점 표시 및 역할 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "플로우 기반 기능 우선순위 정리",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "플로우 검증(팀 리뷰·리서치 반영)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 플로우 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-0": [
+          [
+            {
+              "task": "핵심 화면 구성요소(Block) 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "Low-fidelity 와이어프레임 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "온보딩·메인·피드백 화면 연동",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "AI 관련 표현요소 UI 시안 제작",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "네비게이션 구조 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "사용성 검토 및 간단한 테스트",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "개선사항 반영 및 와이어프레임 고도화",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "기획 문서에 와이어프레임 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-1": [
+          [
+            {
+              "task": "AI 모델 입력/출력 포맷 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API 스펙(엔드포인트·파라미터) 설계",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 응답 처리 플로우 정리",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "지연 시간·성능 요구사항 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            "",
+            {
+              "task": "오류 처리 및 Fallback 전략 기획",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "예상 토큰/비용 산정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "AI 호출 정책(빈도·쿨다운) 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "API 연동 시나리오 문서화",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "2-2": [
+          [
+            {
+              "task": "서비스 기능 범위 정의(MVP/Full)",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "개발 우선순위 기반 Roadmap 기획",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "마일스톤 기준 설정(Scope 기준)",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "기능별 개발 일정 Rough 산정",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "서비스 로드맵 및 릴리즈 마일스톤 기획",
+              "startDate": "2026-02-19 (목)",
+              "endDate": "2026-02-27 (금)"
+            },
+            {
+              "task": "리소스/역할별 작업 할당 구조 설계",
+              "startDate": "",
+              "endDate": ""
+            }
+          ],
+          [
+            {
+              "task": "리스크 요소 도출 및 대응전략 마련",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "릴리즈 계획 및 배포 단계 정의",
+              "startDate": "",
+              "endDate": ""
+            },
+            {
+              "task": "최종 로드맵 문서화 및 공유 준비",
+              "startDate": "",
+              "endDate": ""
+            }
+          ]
+        ],
+        "center": [
+          [
+            {
+              "task": "타깃 사용자 정의 및 페르소나 설계",
+              "startDate": "2025-12-10 (수)",
+              "endDate": "2025-12-17 (수)",
+              "animate": true
+            },
+            {
+              "task": "문제 정의 및 서비스 가치 제안 정리",
+              "startDate": "2025-12-18 (목)",
+              "endDate": "2025-12-25 (목)",
+              "animate": true
+            },
+            {
+              "task": "경쟁 서비스 리서치 및 벤치마킹",
+              "startDate": "2025-12-26 (금)",
+              "endDate": "2026-01-05 (월)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "AI 적용 가능 영역 및 요구 데이터 정의",
+              "startDate": "2026-01-06 (화)",
+              "endDate": "2026-01-16 (금)",
+              "animate": true
+            },
+            {
+              "task": "만다라트 서비스기획",
+              "startDate": null,
+              "endDate": "2026-02-28"
+            },
+            {
+              "task": "핵심 기능(핵심 시나리오) 플로우 설계",
+              "startDate": "2026-01-19 (월)",
+              "endDate": "2026-01-27 (화)",
+              "animate": true
+            }
+          ],
+          [
+            {
+              "task": "와이어프레임 / UX 플로우 초안 제작",
+              "startDate": "2026-01-28 (수)",
+              "endDate": "2026-02-09 (월)",
+              "animate": true
+            },
+            {
+              "task": "AI 모델 요구사항 및 API 연동 방식 정의",
+              "startDate": "2026-02-10 (화)",
+              "endDate": "2026-02-18 (수)",
+              "animate": true
+            },
+            {
+              "task": "서비스 로드맵 및 릴리즈 마일스톤 기획",
+              "startDate": "2026-02-19 (목)",
+              "endDate": "2026-02-27 (금)",
+              "animate": true
             }
           ]
         ]

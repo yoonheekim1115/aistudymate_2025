@@ -24,6 +24,8 @@ export default function MyMandalart() {
 };
 
 
+
+
 const applyToCalendar = (mandalart) => {
   if (!mandalart || !mandalart.data || !mandalart.data.center) {
     alert("만다라트 데이터가 올바르지 않습니다.");
@@ -49,7 +51,13 @@ const applyToCalendar = (mandalart) => {
 
     // "2025-01-01 (월)" → "2025-01-01"
     const start = cell.startDate.split(" ")[0];
-    const end = cell.endDate.split(" ")[0];
+    const endRaw = cell.endDate.split(" ")[0];
+
+    // 🔥 end 날짜 +1일 (FullCalendar exclusive issue 방지)
+    const endDateObj = new Date(endRaw);
+    endDateObj.setDate(endDateObj.getDate() + 1);
+
+    const end = endDateObj.toISOString().split("T")[0];
 
     newEvents.push({
       title: cell.task,
